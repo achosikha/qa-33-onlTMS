@@ -48,6 +48,10 @@ public class MyArraysCorrect {
         // Новый массив получит длину старого 7 и увеличит его еще на 10 = 17
         int[] copiedArray = new int[originalArray.length + 10];
 
+        // index = 0 - FIRST ELEMENT
+        // index++, index всегда будет 0 - т.е. вы не сдвинитесь с позиции
+        // А поскольку у вас логическое условие конца цикла index < originalArray.length
+        // То цикл будет бесконечен
         for (int index = 0; index < originalArray.length; index++){
             copiedArray[index] = originalArray[index];
         }
