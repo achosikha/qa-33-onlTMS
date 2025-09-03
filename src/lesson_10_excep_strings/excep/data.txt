@@ -1,0 +1,2 @@
+Welcome to programming language JAVA for TMS Students!
+If you read this document, NO EXCEPTION HAD BEEN THROWN!
