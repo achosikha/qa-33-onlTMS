@@ -19,7 +19,6 @@ public class RegExBasics {
 
         // Если мы работает  с большим объемом данных, и надо как-то структурировать и создать более сложную схему
         // тогда мы обращаем к двум существующим классам: Pattern, Matcher
-        usePatternMatcher();
     }
 
     public static void getBasicRegularExpression(){

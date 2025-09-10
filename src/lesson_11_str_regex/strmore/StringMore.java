@@ -5,7 +5,12 @@ import java.util.Arrays;
 public class StringMore {
     public static void main(String[] args) {
         // CODE
-        concatRules();
+    }
+
+    public static void setP2toP1(){
+        Person p1 = new Person("Archil");
+        Person p2 = p1; // p2 -> p1, под него у меня отдельно памяти нет
+        System.out.println(p2);
     }
 
     public static void getStringBasics(){
@@ -43,6 +48,8 @@ public class StringMore {
         // Это тема ОСОБЕННО АКТУАЛЬНА, КОГДА ВЫ РАБОТАЕТЕ С КОЛЛЕКЦИЯМИ
         // Но, она также используется для проверки и сортировки и других объектов
         String str = "Java";
+
+        // & ALIAS
         String strUpperCase = "JAVA";
         String strDuplicate = "Java";
         String strNew = new String("Java");
