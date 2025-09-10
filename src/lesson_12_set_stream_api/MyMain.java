@@ -39,5 +39,9 @@ public class MyMain {
         ArrayList<String> namesNew = new ArrayList<>(names.stream().filter(name -> name.startsWith("A")).
                 filter(name -> name.length() > 4).toList());
         System.out.println(namesNew);
+
+        // WORKING with ARRAYS
+        int[] numbers = {1, 4, 5, 6};
+        System.out.println(Arrays.toString(Arrays.stream(numbers).filter(e -> e > 4).toArray()));
     }
 }
